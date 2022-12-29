@@ -13,7 +13,7 @@ import {ChatIcon} from '../../assets/icons/ChatIcon';
 export const GamingHeader = () => {
 	const {chatVisible, toggleFullScreen} = useLayoutController();
 
-	const title = '2200+ Wins, #1 Warzone Battle Royale All Platforms Wins';
+	const title = 'Make suggestions for what the streamer should do next!';
 
 	return (
 			<header>
@@ -24,16 +24,22 @@ export const GamingHeader = () => {
 						<div className='game-details'>
 							<div>
 								<ControllerIcon/>
-								<p>Overwatch</p>
+								<p>Audience Control</p>
 							</div>
 							<div>
 								<PeopleIcon/>
-								<p>Corsairs</p>
+								<p>Nimz</p>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div style={{flexGrow: 1, textAlign: 'center'}}>
+					<h1 style={{color: 'white'}}>REALITY CONTROL</h1>
+				</div>
 				<div className='stream-involvement'>
+				<div className='stream-involvement__stat'>
+						<p style={{fontSize: 40}}>£285</p>
+					</div>
 					<div className='stream-involvement__stat'>
 						<WatcherIcon/>
 						<p>458K</p>
