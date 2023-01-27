@@ -38,7 +38,7 @@ export const GamingChat = () => {
 		if (!chatClient) return;
 
 		const loadChat = async () => {
-			const channel = chatClient.channel('gaming', 'gaming-demo', {name: 'Gaming Demo'});
+			const channel = chatClient.channel('livestream', 'glassbox1', {name: 'GlassBox'});
 			await channel.watch();
 			setChannel(channel);
 		};

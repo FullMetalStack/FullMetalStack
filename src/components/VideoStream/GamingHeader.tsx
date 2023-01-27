@@ -34,7 +34,7 @@ export const GamingHeader = () => {
 					</div>
 				</div>
 				<div style={{flexGrow: 1, textAlign: 'center'}}>
-					<h1 style={{color: 'white'}}>REALITY CONTROL</h1>
+					<span style={{color: 'white', fontStyle: 'italic', fontWeight: 'bold', fontSize: '28pt'}}>G<span style={{fontSize:'24pt'}}>LASS</span>B<span style={{fontSize:'24pt'}}>OX</span></span>
 				</div>
 				<div className='stream-involvement'>
 				<div className='stream-involvement__stat'>

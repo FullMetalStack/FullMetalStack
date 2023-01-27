@@ -100,7 +100,7 @@ const StreamerDetails = () => (
 		<div className='avatar'/>
 		<div className='streamer-container'>
 			<div className='streamer-name'>
-				<p>SamCrack</p>
+				{/* <p>SamCrack</p> */}
 				<CheckIcon/>
 			</div>
 			<ul className='streamer-details'>

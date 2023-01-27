@@ -14,7 +14,7 @@ export const GamingVideo = ({ chatVisible }: GamingVideoProps) => {
       controls
       className={`video-container ${chatVisible}`}
     >
-      <source src='https://getstream.io/downloads/react_example-gaming_livestream.mp4' />
+      <source src='https://cdn3.wowza.com/1/TlFzL2Q5cmdERlpl/cm03aWlE/hls/live/playlist.m3u8' />
     </video>
   );
 };
